@@ -57,6 +57,7 @@ AB_OTA_PARTITIONS += \
     product \
     recovery \
     system \
+    system_ext \
     vbmeta \
     vbmeta_system
 
@@ -90,7 +91,7 @@ PRODUCT_COPY_FILES += \
 
 # Boot control
 PRODUCT_PACKAGES += \
-    android.hardware.boot@1.0-impl.recovery \
+    android.hardware.boot@1.1-impl.recovery \
     bootctrl.kona.recovery
 
 PRODUCT_PACKAGES_DEBUG += \
